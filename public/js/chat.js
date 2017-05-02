@@ -28,7 +28,7 @@ function scrollToBottom(){
     });
   });
 
-  socket.on('disconnected', function() {
+  socket.on('disconnect', function() {
     console.log("Disconnected from server");
   });
 
